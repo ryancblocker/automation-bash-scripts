@@ -8,8 +8,7 @@ git fetch origin main
 git pull origin main
 git push -f origin $branch
 
-#Stage all changes from the directory above the one im in
-cd ..
+#Stage all changes from the directory I am in
 git add .
 
 # Commit changes and prompt user for commit message
